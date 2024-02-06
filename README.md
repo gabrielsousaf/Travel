@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center" width:100%>
 
-## Getting Started
 
-First, run the development server:
+![Travel - Google Chrome 2024-02-03 20-52-07](https://github.com/gabrielsousaf/Travel/assets/121953504/4d2267bc-6b1e-4845-b63d-3cc6bad7329a)
+![Design_sem_nome-removebg-preview](https://github.com/gabrielsousaf/Travel/assets/121953504/e9e6de51-7947-4cf8-8fd6-fd853e2117a8)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ 
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 📱 Travel.
+> * Esse repositório tem como objetivo principal apresentar meus estudos e aplicar em projetos pessoais em React.
+> * Website de apresentação de um aplicativo fictício.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## ⚙ Descrição do projeto.
+> * A estilização do projeto é feita utilizando Tailwind CSS, uma biblioteca de utilitários CSS. Isso permite uma abordagem de estilização baseada em classes.<br>
+> * Dados estáticos, como os links de navegação, URLs de imagens e informações de recursos, são gerenciados centralmente em um arquivo de constantes. . <br>
+> * O projeto aproveita as funcionalidades oferecidas pelo Next.js, como roteamento de página, pré-renderização, otimização de imagens e suporte a TypeScript.<br>
+> * O estado da aplicação é gerenciado utilizando o hook useState do React. Por exemplo, o estado isMenuOpen é usado para controlar se o menu de navegação está aberto ou fechado em dispositivos móveis.<br>
+> * O projeto é projetado com layouts responsivos e flexíveis, garantindo uma experiência consistente em diferentes dispositivos e tamanhos de tela.
 
-## Learn More
+## ☕ Tecnologias Usadas
 
-To learn more about Next.js, take a look at the following resources:
+[![TAIWIND](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](#)
+[![REACT](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](#)
+[![TYPESCRIPT](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](#)
+[![NEXT](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)](#)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://travel-xi-ruddy.vercel.app/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 📎 Como Executar o projeto.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+No diretório do projeto, você pode executar:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## `npm i`:
+> Instalar as dependências listadas no arquivo package.json do projeto.
+
+## `npm run dev`: 
+> Executa o aplicativo em modo de desenvolvimento.
+> Abra http://localhost:3000 para visualizá-lo no navegador.
+> A página será recarregada quando você fizer alterações.
+> Você também pode ver quaisquer erros de lint no console.
+
+### `npm test`
+> Inicia o executor de teste no modo de observação interativo.
+> Consulte a seção sobre executando testes para obter mais informações.
+
+### `npm run build`
+> Compila o aplicativo para produção na pasta build.
+> Ele agrupa corretamente o React no modo de produção e otimiza a construção para obter o melhor desempenho.
+   
+## 📝 Licença
+
+> Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE) para mais detalhes.
+
+
